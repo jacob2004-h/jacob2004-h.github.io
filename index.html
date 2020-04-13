@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <a name="top"></a>
+<h1>Cats, the Website</h1>
+
+<h2>These are the Cats...</h2>
+
+<table>
+  <tr>
+    <th>Cat Name</th>
+    <th>Cat breed</th>
+    <th>Sex</th>
+  </tr>
+  <tr>
+    <td>Fluffy</td>
+    <td>Orange tabby</td>
+    <td>Female</td>
+  </tr>
+  <tr>
+    <td>Alfred</td>
+    <td>Scottish fold</td>
+    <td>Male</td>
+  </tr>
+  <tr>
+    <td>Frodo</td>
+    <td>Siamese</td>
+    <td>Male</td>
+  </tr>
+  <tr>
+    <td>Princess</td>
+    <td>Persian</td>
+    <td>Female</td>
+
+  </tr>
+</table>
+
+<h2>Look at all these cool cats.</h2>
+
+<img src="orange-cat.jpg" alt="Fluffy">
+<p>This is Fluffy ^^^</p>
+<a href="https://www.catster.com/cats-101/orange-tabby-cat-facts">Learn more about orange tabby cats here</a>
+<p>  </p>
+<p>  </p>
+<p>  </p>
+<p>  </p>
+<p>  </p>
+<p>  </p>
+<p>  </p>
+<a href="https://youtu.be/EPc-twdqb6g">
+  <img src="scottish-fold-cat-500px.jpg" alt="HTML tutorial" style="width:500px;height:300px;border:0">
+</a>
+<p>This is Alfred (click on alfred to watch a video about scottish folds)^^^</p>
+<p>  </p>
+<p>  </p>
+<p>  </p>
+<p>  </p>
+<p>  </p>
+<p>  </p>
+<p>  </p>
+<img src="vetstreet.brightspotcdn.jpg" alt="Frodo">
+<p>This is Frodo^^^</p>
+<p>  </p>
+<p>These are Frodo's top three favourite toys:</p>
+<ul>
+  <li>Mouse</li>
+  <li>Ball</li>
+  <li>Feather string</li>
+</ul>
+  <p>  </p>
+  <p>  </p>
+  <p>  </p>
+  <p>  </p>
+  <p>  </p>
+  <p>  </p>
+  <p>  </p>
+  <img src="white-persian-cats-picture-id637190306.jpg" alt="Princess">
+  <p>This is Princess^^^</p>
+
+
+  <audio id="myAudio">
+    <source src="horse.ogg" type="audio/ogg">
+    <source src="Meowing-cat-sound.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <p>Click the buttons to play Princess' meow.</p>
+
+  <button onclick="playAudio()" type="button">Play Audio</button>
+  <button onclick="pauseAudio()" type="button">Pause Audio</button>
+
+  <script>
+  var x = document.getElementById("myAudio");
+
+  function playAudio() {
+    x.play();
+  }
+
+  function pauseAudio() {
+    x.pause();
+  }
+  </script>
+  <br>  <br>  <br>
+
+  <a href="#top">Back to top</a>
+</body>
+</html>
